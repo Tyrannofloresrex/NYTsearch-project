@@ -1,3 +1,10 @@
-* {
-  background-color: pink;
+header {
+background-image: url("https://i.postimg.cc/xTrtfLM7/Spicy-2.png");
+display: cover;
+height: 30vh;
+}
+
+main {
+  border: solid 2px black;
+  padding: 5%;
 }
