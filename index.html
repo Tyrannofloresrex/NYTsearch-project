@@ -2,16 +2,67 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
+    <header class="p-5 text-center bg-light">
+        <h1 class="mb-3">Get with the Times</h1>
+    </header>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="script.js"></script>
+
+    <main class="container">
+
+        <form>
+            <div class="row">
+                <div class="col-10">
+                    <div class="form-group">
+                        <label for="mainSearch">Search Terms</label>
+                        <input type="form" class="search-term" id="searchTerm" placeholder="What time is it?" />
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <div class="form-group">
+                        <label for="numberOfResults">Password</label>
+                        <input type="input" class="form-control" id="resultNum" placeholder="Password" />
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group"></div>
+                <label for="beginSearch">Start Year (optional)</label>
+                <input type="input" class="form-control" id="startYear" placeholder="Where does time begin?" />
+            </div>
+            </div>
+            <div class="row">
+                <div class="form-group">
+                    <label for="beginSearch">End Year (optional)</label>
+                    <input type="input" class="form-control" id="endYear" placeholder="Where does time end?" />
+                </div>
+            </div>
+
+
+
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+
+            <button type="submit" class="btn btn-primary" id="searchButton">Search</button>
+
+        </form>
+
+
+
+        <footer>
+
+        </footer>
+        <script src="script.js"></script>
 </body>
 
 </html>
